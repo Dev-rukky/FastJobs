@@ -369,3 +369,59 @@ nav {
     justify-content: center;
     gap: 10px;
 }
+
+.latest-text {
+    text-align: center;
+}
+
+.latest-text h1 {
+    font-size: 40px;
+    margin: 40px 0px;
+}
+
+.l-img {
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.latest-card {
+    background-color: #ffffff1a;
+    width: 376px;
+
+}
+
+.l-text p {
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.l-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.l-link a {
+    background: var(--main-color);
+    color: #fff;
+    width: 170px;
+    margin-bottom: 40px;
+    border-radius: 40px;
+    padding: 12px 24px;
+    text-align: center;
+}
+
+.latest-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+}
