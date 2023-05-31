@@ -314,3 +314,58 @@ nav {
     align-items: center;
     justify-content: center;
 }
+
+.reviews-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews-text h1 {
+    font-size: 40px;
+}
+
+.reviews-text p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffffb3;
+}
+
+.reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 90px;
+}
+
+.reviews-card {
+    background-color: #ffffff1a;
+    padding: 40px 60px 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 40%;
+    max-width: 410px;
+}
+
+.rev-text p {
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 23px;
+    padding-left: 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.rev-pro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
