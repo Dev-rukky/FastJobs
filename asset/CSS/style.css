@@ -198,11 +198,11 @@ nav {
     max-width: 550px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .s-c-img {
-    padding: 40px;
+    padding: 20px;
     max-width: 445px;
 }
 
@@ -432,4 +432,26 @@ nav {
     justify-content: center;
     gap: 50px;
     padding: 30px;
+}
+
+.event {
+    text-align: center;
+}
+
+.event-text h1 {
+    font-size: 40px;
+    margin: 20px 0px;
+}
+
+.event-text p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.e-c-img img {
+    border-radius: 10px;
+}
+
+.e-c-text p:hover {
+    color: var(--main-color);
 }
