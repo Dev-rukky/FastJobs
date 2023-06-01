@@ -455,3 +455,107 @@ nav {
 .e-c-text p:hover {
     color: var(--main-color);
 }
+
+.news-text h1 {
+    font-size: 40px;
+    margin: 0px 0px 16px;
+}
+
+.news-text p {
+    font-size: 20px;
+    margin: 0px 0px 16px;
+}
+
+.contact-info input {
+    height: 64px;
+    width: 20%;
+    max-width: 270px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px #000;
+    border-bottom: 1px solid rgba(255, 255, 255, .16);
+    margin-bottom: 0;
+    margin-right: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 0;
+    font-size: 16px;
+}
+
+.contact-info input:focus {
+    outline: none;
+    border-bottom-color: #000;
+}
+
+.contact-info button {
+    color: #fff;
+    background-color: #6776ff;
+    border-radius: 40px;
+    padding: 20px 24px 20px;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.news-text {
+    text-align: center;
+}
+
+.news-container {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px; */
+    padding: 60px 0px;
+}
+
+footer {
+    text-align: center;
+}
+
+.footer-link a {
+    padding: 10px 0px;
+    margin: 0px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer-link a:hover {
+    color: #ffffffb3;
+}
+
+.socials a {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy a {
+    color: #fff;
+    justify-content: center;
+    /* margin-top: 30px; */
+    display: flex;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
